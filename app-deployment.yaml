@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: bookstore-container
-          image: your-dockerhub-username/onlinebookstore:latest
+          image: veedhi1995/onlinestore-java-tomcat:ca2f60e
           ports:
             - containerPort: 8080
           env:
